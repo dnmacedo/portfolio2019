@@ -73,7 +73,7 @@ h3 a {
 article {
   position: relative;
   left: 200px;
-  width: 88%;
+  width: 1600px;
 	top: 0;
   height: 100%;
   overflow: hidden;
@@ -327,7 +327,7 @@ iframe {
 #dcc-main {
   width: 1100px;
 }
-#dcc-main-image {
+#dcc-main img {
   max-width: 1100px;
   max-height: 733.333px;
   margin: auto;
