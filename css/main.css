@@ -78,6 +78,9 @@ article {
   height: 100%;
   overflow: hidden;
 }
+article img {
+  max-width: 1300px;
+}
 strong {
   font-family: Avenir Demi;
 }
