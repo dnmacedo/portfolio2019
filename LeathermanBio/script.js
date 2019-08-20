@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(event){
     var logoPic = document.getElementById("logo-pic");
 
     newWeb.addEventListener("click", function(){
-      webPic.src="img/Website.jpg";
+      webPic.src="img/Website1.jpg";
     });
     oldWeb.addEventListener("click", function(){
       webPic.src="img/Old_Website.png";
