@@ -279,20 +279,20 @@ footer {
   width: 100%;
 }
 /***** VAREP *****/
-#RTsection {
+#VAREPMaterials {
   width: 1300px;
 }
-#RTsection img {
+#VAREPMaterials img {
   width: 500px;
   margin: 20px 0;
 }
-#RTsection img:nth-of-type(1){
+#VAREPMaterials img:nth-of-type(1){
   width: 900px;
 }
-#policyC img {
+#PolicyConference2018 img {
   width: 1100px;
 }
-#policyC img:nth-of-type(2), #policyC img:nth-of-type(3) {
+#PolicyConference2018 img:nth-of-type(2), #PolicyConference2018 img:nth-of-type(3) {
   width: 550px;
 }
 #stopDropPush img {
