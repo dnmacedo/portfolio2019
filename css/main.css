@@ -323,7 +323,8 @@ iframe {
 /****** PHOTO ******/
 .glide__slide img {
   display: block;
-  max-height: 865px;
+  width: 1300px;
+  height: 867px;
   margin: auto;
 }
 /****** DCC ******/
