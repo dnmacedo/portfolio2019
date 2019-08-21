@@ -283,23 +283,23 @@ footer {
   width: 100%;
 }
 /***** VAREP *****/
-#VAREPMaterials {
+#VAREPSection {
   width: 1300px;
 }
-#VAREPMaterials img {
+#VAREPSection img {
   width: 500px;
   margin: 20px 0;
 }
-#VAREPMaterials img:nth-of-type(1){
+#VAREPSection img:nth-of-type(1){
   width: 900px;
 }
-#PolicyConference2018 img {
+#PolicySection img {
   width: 1100px;
 }
-#PolicyConference2018 img:nth-of-type(2), #PolicyConference2018 img:nth-of-type(3) {
+#PolicySection img:nth-of-type(2), #PolicySection img:nth-of-type(3) {
   width: 550px;
 }
-#StopDropPush img {
+#SDP img {
   width: 1100px;
   margin: 20px 0;
 }
