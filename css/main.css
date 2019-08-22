@@ -312,7 +312,7 @@ footer p {
 /****** DLC ******/
 .logoImg {
   width: 300px;
-  margin: 0 25px 25px 0;
+  margin: 0;
   position: relative;
   float: left;
 }
