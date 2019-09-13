@@ -201,6 +201,11 @@ a:hover, button:hover {
 #aboutMe-desc {
   clear: none;
 }
+#my-image {
+  width: 400px;
+  float: left;
+  top: 50px;
+}
 form {
   width: 50%;
   clear: both;
