@@ -15,370 +15,551 @@
   font-family: Avenir Bold;
   src: url('../fonts/AvenirNextLTPro-Bold_0.otf') format('opentype');
 }
-body {
-  font-family: Avenir;
-  color: #696969;
-}
-main {
-  margin: auto;
-}
-/*****  HEADER *****/
-header {
-  display: block;
-	top: 0;
-  padding: 50px 50px;
-  width: 100px;
-	height: 100%;
-  background-color: white;
-	position: fixed;
-  z-index: 2;
-}
-#home-link {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  margin: 0px;
-  width: 100px;
-  height: 100px;
-}
-ul {
-  margin-top: 50px;
-}
-ul li {
-  font-family: Avenir Italic;
-  line-height: 30px;
-}
-ul li a {
-  text-decoration: none;
-  color: inherit;
-  transition: all 0.2s ease;
-}
-ul li a:hover {
-  opacity: .5;
-}
-ul li a img {
-  padding-right: 10px;
-}
-/***** main *****/
-h3 {
-  max-width: 1300px;
-  margin: 50px 0;
-  font-size: 26px;
-  line-height: 30px;
-  font-family: Avenir;
-}
-h3 a {
-  color: inherit;
-}
-article {
-  position: relative;
-  left: 200px;
-  width: 1600px;
-	top: 0;
-  height: 100%;
-  overflow: hidden;
-}
-article img {
-  max-width: 1300px;
-}
-strong {
-  font-family: Avenir Demi;
-}
-.top-section {
-  position: fixed;
-  display: block;
-  box-sizing: border-box;
-  top: 0;
-  width: 100%;
-  height: 180px;
-  z-index: 3;
-  background-color: white;
-}
-.top-section-padding {
-  position: relative;
-  height: 230px;
-  width: 100%;
-  display: block;
-  float: left;
-}
-.top {
-  position: fixed;
-  bottom: 100px;
-  right: 100px;
-  color: #696969;
-  text-decoration: none;
-  background-color: white;
-  font-size: 28px;
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
-  text-align: center;
-  font-family: Avenir Demi;
-  transition: all 0.2s ease;
-  z-index: 2;
-}
-.top:hover {
-  color: white;
-  background-color: #696969;
-  opacity: 1;
-}
-section {
-  clear: both;
-  display: block;
-}
-h2 {
-  max-width: 800px;
-  margin: 50px 0;
-  font-size: 28px;
-  line-height: 28px;
-  font-family: Avenir Demi;
-}
-h2 span {
-  font-family: Avenir Italic;
-  font-size: 16px;
-}
-h2 a {
-  color: inherit;
-}
-.picbutton {
-  display: inline-block;
-  position: relative;
-  margin: 0;
-}
-.picbutton a {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  margin: 0px;
-  width: 375px;
-  height: 375px;
-  text-align: left;
-  transition: all 0.4s ease;
-}
-.picbutton a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-article p {
-  max-width: 800px;
-  line-height: 22px;
-  margin: 0 50px 50px 0;
-  clear: both;
-}
-p a {
-  text-decoration: underline;
-  color: #696969;
-  transition: all 0.2s ease;
-}
-p a:hover, .page-links a:hover {
-  opacity: .5;
-}
-article img {
-  position: relative;
-  float: left;
-}
-button {
-  background-color: transparent;
-  border: none;
-  font-family: inherit;
-  color: inherit;
-  transition: all 0.2s ease;
-}
-a:hover, button:hover {
-  opacity: .5;
-  cursor: pointer;
-}
-#about {
-  display: block;
-  border-color: transparent;
-  height: 25px;
-}
-#about:hover {
-  cursor: default;
-}
-#aboutMe {
-  min-height: 1000px;
-}
-#aboutMe-desc {
-  clear: none;
-}
-#my-image {
-  width: 400px;
-  float: left;
-  top: 50px;
-}
-form {
-  width: 50%;
-  clear: both;
-}
-label{
-  width:4in;
-  display: block;
-  line-height: 25px;
-}
-input[type="text"] {
-  width: 600px;
-  padding:15px 10px;
-  margin: 10px auto;
-  border: 1px white solid; /*remove default*/
-  border-radius:3px;
-  background-color: rgba(103, 200, 202, .3);
-  color: black;
-  font-size:14px;
-}
-textarea {
-  width:600px;
-  height: 1.5in;
-  padding:15px 10px;
-  margin: 10px auto;
-  border: 1px white solid; /*remove default*/
-  border-radius:3px;
-  background-color: rgba(103, 200, 202, .3);
-  color: black;
-  font-size:14px;
-}
-input[type=text]:focus, textarea:focus {
-  border: 1px rgba(103, 200, 202) solid;
-  background-color: white;
-  color:black;
-}
-input[type="submit"], input[type="reset"] {
-  position:relative;
-  width: 1in;
-  top:14px;
-  padding:12px;
-  border:none; /*remove default*/
-  border-radius:3px;
-  background-color: rgb(103, 200, 202);
-  color:#ffffff;
-  font-weight:bold;
-  font-size:18px;
-  transition: all 0.2s ease;
-}
-input[type="submit"]:hover {
-  cursor: pointer;
-  opacity: .5;
-}
-aside{
-  position:absolute;
-  top:100px;
-  right:32%;
-  width: 35%;
-  height: 200px;
-  background-color: rgba(30, 30, 30, 1);
-  border-radius: 3px;
-  color: white;
-  display:none;
-  font-size: 20px;
-}
-#myMsg {
-  position:relative;
-  top:40%;
-  text-align:center;
-}
-aside #close{
-  position:absolute;
-  top:10px;
-  right:10px;
-}
-footer {
-  position: relative;
-  bottom: 0;
-  left: 200px;
-  height: 200px;
-  width: 1600px;
-}
-footer p {
-  font-size: 12px;
-  position: relative;
-  text-align: left;
-  top: 100px;
-}
-/***** VAREP *****/
-#VAREPSection {
-  width: 1300px;
-}
-#VAREPSection img {
-  width: 500px;
-  margin: 20px 0;
-}
-#VAREPSection img:nth-of-type(1){
-  width: 900px;
-}
-#PolicySection img {
-  width: 1100px;
-}
-#PolicySection img:nth-of-type(2), #PolicySection img:nth-of-type(3) {
-  width: 550px;
-}
-#SDP img {
-  width: 1100px;
-  margin: 20px 0;
-}
-/****** DLC ******/
-.logoImg {
-  width: 300px;
-  margin: 0;
-  position: relative;
-  float: left;
-}
-.logoImg:first-of-type {
-  clear: both;
-}
-/****** MAIZME ******/
-.maizme-img {
-  margin: 50px 0;
-}
-/****** FLOW ******/
-iframe {
-  margin: 20px 0;
-}
-/****** LANG APP ******/
-#langApp img {
-  margin: 0 20px 100px 0; /*style for the language app page*/
-}
-/***** LBC  *****/
+/* RESPONSIVE STYLINGS */
+/* Mobiles in Portrait mode */
+@media only screen and (max-width: 320px){
+  nav {
+    display: none;
+    background-color: white;
+  }
+  img {
+    max-width: 90%;
+    margin: 5%;
+  }
+  h3 {
+    font-family: Avenir Demi;
+    font-size: 14pt;
+    line-height: 18pt;
+    text-align: center;
+    max-width: 90%;
+    margin: 5%;
+  }
 
-/****** PHOTO ******/
-.glide__slide img {
-  display: block;
-  width: 1300px;
-  height: 867px;
-  margin: auto;
 }
-/****** DCC ******/
-.desc {
-  width: 350px;
-  padding-left: 100px;
-  margin: 100px 0;
-  float: left;
+/* Mobiles in landscape mode */
+@media only screen and (min-width:321px) and (max-width: 480px){
+  header img {
+    position: relative;
+    left: 0;
+    display: block;
+    width: 20%;
+    height: 20%;
+    margin: 5%;
+  }
+  #homelink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 100px;
+  }
+  nav {
+    display: none;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background-color: #67c8ca;
+    font-family: Avenir;
+    font-size: 18pt;
+    line-height: 32pt;
+    color: white;
+    width: 100%;
+    height: 100%;
+  }
+  nav ul {
+    width: 150px;
+    margin: 50% auto;
+  }
+  nav li {
+    width: 100%;
+    display: inline-block;
+  }
+  nav li:last-child {
+    background-color: white;
+  }
+  nav li:last-child a{
+    float: left;
+    width: 40px;
+    margin: 3%;
+  }
+  nav li:last-child img {
+    width: 100%;
+    height: 100%;
+  }
+  nav a {
+    color: white;
+  }
+  img {
+    max-width: 90%;
+    margin: 5%;
+  }
+  h3, h2 {
+    font-family: Avenir Demi;
+    font-size: 18pt;
+    line-height: 22pt;
+    text-align: center;
+    max-width: 90%;
+    margin: 10% 5%;
+  }
+  .top {
+    position: relative;
+    display: block;
+    bottom: 20px;
+    margin: 12% 43%;
+    color: #67c8ca;
+    text-decoration: underline;
+    background-color: white;
+    font-size: 28px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-family: Avenir Demi;
+    transition: all 0.2s ease;
+    z-index: 2;
+  }
+  .picbutton a {
+    position: absolute;
+    left: 0;
+    margin: 5%;
+    width: 90%;
+    padding-top: 90%;
+    text-align: left;
+  }
+  a {
+    color: #67c8ca;
+  }
+  p {
+    font-size: 14pt;
+    line-height: 18pt;
+    max-width: 90%;
+    margin: 5%;
+  }
+  p, input, textarea {
+    font-family: Avenir;
+  }
+  input[type="text"] {
+    font-size: 12pt;
+    padding:15px;
+    width: 80%;
+    margin: 2% 5%;
+    border: 1px white solid; /*remove default*/
+    border-radius: 10px;
+    background-color: rgba(103, 200, 202, .3);
+    color: black;
+    font-size:14px;
+  }
+  textarea {
+    width: 80%;
+    height: 80px;
+    padding:15px;
+    margin: 2% 5%;
+    border: 1px white solid; /*remove default*/
+    border-radius: 10px;
+    background-color: rgba(103, 200, 202, .3);
+    color: black;
+    font-size:14px;
+  }
+  input[type=text]:focus, textarea:focus {
+    border: 1px rgba(103, 200, 202) solid;
+    background-color: white;
+    color:black;
+  }
+  input[type="submit"], input[type="reset"] {
+    position:relative;
+    width: 1in;
+    padding:12px;
+    margin: 5% 35%;
+    border:none; /*remove default*/
+    border-radius:3px;
+    background-color: rgb(103, 200, 202);
+    color:#ffffff;
+    font-weight:bold;
+    font-size:18px;
+    transition: all 0.2s ease;
+  }
+  label {
+    display: none;
+  }
+  form {
+    margin: 5%;
+  }
 }
-#team-list li {
-  font-size: 16px;
+/* Tablets */
+@media only screen and (min-width:768px) and (max-width: 1024px){
+
 }
-#team-list a {
-  text-decoration: underline;
+/* Desktops and laptop computers */
+@media only screen and (min-width: 1224px){
+  body {
+    font-family: Avenir;
+    color: #696969;
+  }
+  main {
+    margin: auto;
+  }
+  /*****  HEADER *****/
+  header {
+    display: block;
+  	top: 0;
+    padding: 50px 50px;
+    width: 100px;
+  	height: 100%;
+    background-color: white;
+  	position: fixed;
+    z-index: 2;
+  }
+  #home-link {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+  }
+  ul {
+    margin-top: 50px;
+  }
+  ul li {
+    font-family: Avenir Italic;
+    line-height: 30px;
+  }
+  ul li a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+  }
+  ul li a:hover {
+    opacity: .5;
+  }
+  ul li a img {
+    padding-right: 10px;
+  }
+  /***** main *****/
+  h3 {
+    max-width: 1300px;
+    margin: 50px 0;
+    font-size: 26px;
+    line-height: 30px;
+    font-family: Avenir;
+  }
+  h3 a {
+    color: inherit;
+  }
+  article {
+    position: relative;
+    left: 200px;
+    width: 1600px;
+  	top: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  article img {
+    max-width: 1300px;
+  }
+  strong {
+    font-family: Avenir Demi;
+  }
+  .top-section {
+    position: fixed;
+    display: block;
+    box-sizing: border-box;
+    top: 0;
+    width: 100%;
+    height: 180px;
+    z-index: 3;
+    background-color: white;
+  }
+  .top-section-padding {
+    position: relative;
+    height: 230px;
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  .top {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    color: #696969;
+    text-decoration: none;
+    background-color: white;
+    font-size: 28px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-family: Avenir Demi;
+    transition: all 0.2s ease;
+    z-index: 2;
+  }
+  .top:hover {
+    color: white;
+    background-color: #696969;
+    opacity: 1;
+  }
+  section {
+    clear: both;
+    display: block;
+  }
+  h2 {
+    max-width: 800px;
+    margin: 50px 0;
+    font-size: 28px;
+    line-height: 28px;
+    font-family: Avenir Demi;
+  }
+  h2 span {
+    font-family: Avenir Italic;
+    font-size: 16px;
+  }
+  h2 a {
+    color: inherit;
+  }
+  .picbutton {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+  }
+  .picbutton a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    width: 375px;
+    height: 375px;
+    text-align: left;
+    transition: all 0.4s ease;
+  }
+  .picbutton a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  article p {
+    max-width: 800px;
+    line-height: 22px;
+    margin: 0 50px 50px 0;
+    clear: both;
+  }
+  p a {
+    text-decoration: underline;
+    color: #696969;
+    transition: all 0.2s ease;
+  }
+  p a:hover, .page-links a:hover {
+    opacity: .5;
+  }
+  article img {
+    position: relative;
+    float: left;
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    font-family: inherit;
+    color: inherit;
+    transition: all 0.2s ease;
+  }
+  a:hover, button:hover {
+    opacity: .5;
+    cursor: pointer;
+  }
+  #about {
+    display: block;
+    border-color: transparent;
+    height: 25px;
+  }
+  #about:hover {
+    cursor: default;
+  }
+  #aboutMe {
+    min-height: 1000px;
+  }
+  #aboutMe-desc {
+    clear: none;
+  }
+  #my-image {
+    width: 400px;
+    float: left;
+    top: 50px;
+  }
+  form {
+    width: 50%;
+    clear: both;
+  }
+  label{
+    width:4in;
+    display: block;
+    line-height: 25px;
+  }
+  input[type="text"] {
+    width: 600px;
+    padding:15px 10px;
+    margin: 10px auto;
+    border: 1px white solid; /*remove default*/
+    border-radius:3px;
+    background-color: rgba(103, 200, 202, .3);
+    color: black;
+    font-size:14px;
+  }
+  textarea {
+    width:600px;
+    height: 1.5in;
+    padding:15px 10px;
+    margin: 10px auto;
+    border: 1px white solid; /*remove default*/
+    border-radius:3px;
+    background-color: rgba(103, 200, 202, .3);
+    color: black;
+    font-size:14px;
+  }
+  input[type=text]:focus, textarea:focus {
+    border: 1px rgba(103, 200, 202) solid;
+    background-color: white;
+    color:black;
+  }
+  input[type="submit"], input[type="reset"] {
+    position:relative;
+    width: 1in;
+    top:14px;
+    padding:12px;
+    border:none; /*remove default*/
+    border-radius:3px;
+    background-color: rgb(103, 200, 202);
+    color:#ffffff;
+    font-weight:bold;
+    font-size:18px;
+    transition: all 0.2s ease;
+  }
+  input[type="submit"]:hover {
+    cursor: pointer;
+    opacity: .5;
+  }
+  aside{
+    position:absolute;
+    top:100px;
+    right:32%;
+    width: 35%;
+    height: 200px;
+    background-color: rgba(30, 30, 30, 1);
+    border-radius: 3px;
+    color: white;
+    display:none;
+    font-size: 20px;
+  }
+  #myMsg {
+    position:relative;
+    top:40%;
+    text-align:center;
+  }
+  aside #close{
+    position:absolute;
+    top:10px;
+    right:10px;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    left: 200px;
+    height: 200px;
+    width: 1600px;
+  }
+  footer p {
+    font-size: 12px;
+    position: relative;
+    text-align: left;
+    top: 100px;
+  }
+  /***** VAREP *****/
+  #VAREPSection {
+    width: 1300px;
+  }
+  #VAREPSection img {
+    width: 500px;
+    margin: 20px 0;
+  }
+  #VAREPSection img:nth-of-type(1){
+    width: 900px;
+  }
+  #PolicySection img {
+    width: 1100px;
+  }
+  #PolicySection img:nth-of-type(2), #PolicySection img:nth-of-type(3) {
+    width: 550px;
+  }
+  #SDP img {
+    width: 1100px;
+    margin: 20px 0;
+  }
+  /****** DLC ******/
+  .logoImg {
+    width: 300px;
+    margin: 0;
+    position: relative;
+    float: left;
+  }
+  .logoImg:first-of-type {
+    clear: both;
+  }
+  /****** MAIZME ******/
+  .maizme-img {
+    margin: 50px 0;
+  }
+  /****** FLOW ******/
+  iframe {
+    margin: 20px 0;
+  }
+  /****** LANG APP ******/
+  #langApp img {
+    margin: 0 20px 100px 0; /*style for the language app page*/
+  }
+  /***** LBC  *****/
+
+  /****** PHOTO ******/
+  .glide__slide img {
+    display: block;
+    width: 1300px;
+    height: 867px;
+    margin: auto;
+  }
+  /****** DCC ******/
+  .desc {
+    width: 350px;
+    padding-left: 100px;
+    margin: 100px 0;
+    float: left;
+  }
+  #team-list li {
+    font-size: 16px;
+  }
+  #team-list a {
+    text-decoration: underline;
+  }
+  #team-list strong {
+    font-size: 20px;
+  }
+  #dcc-main {
+    width: 1100px;
+  }
+  #dcc-main img {
+    max-width: 1100px;
+    max-height: 733.333px;
+    margin: auto;
+  }
+  #dcc-main p {
+    margin: 10px 0;
+    max-width: 1100px;
+  }
+  #dcc-main button {
+    padding-right: 10px;
+  }
+  #graphics, #web, #directors, #event-exp, #finances, #exhibits, #outreach, #workshop, #photographer {
+    display: none;
+  }
+  #team {
+    display: block;
+  }
+  /* very large screen displays */
 }
-#team-list strong {
-  font-size: 20px;
-}
-#dcc-main {
-  width: 1100px;
-}
-#dcc-main img {
-  max-width: 1100px;
-  max-height: 733.333px;
-  margin: auto;
-}
-#dcc-main p {
-  margin: 10px 0;
-  max-width: 1100px;
-}
-#dcc-main button {
-  padding-right: 10px;
-}
-#graphics, #web, #directors, #event-exp, #finances, #exhibits, #outreach, #workshop, #photographer {
-  display: none;
-}
-#team {
-  display: block;
+@media only screen and (min-width: 1824px){
+
 }
