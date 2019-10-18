@@ -257,6 +257,9 @@
   }
   ul {
     margin-top: 50px;
+    list-style-type: none;
+    left: 0;
+    padding: 0;
   }
   ul li {
     font-family: Avenir Italic;
