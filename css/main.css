@@ -129,6 +129,18 @@
     transition: all 0.2s ease;
     z-index: 2;
   }
+  .page-links {
+    text-align: left;
+    padding-top: 4%;
+  }
+  .page-links span {
+    font-size: 20px;
+    color: #696969;
+    font-style: italic;
+  }
+  .page-links span a {
+    
+  }
   .picbutton a {
     position: absolute;
     left: 0;
