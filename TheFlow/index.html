@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <title>Dani Macedo</title>
-  <link rel="stylesheet" href="../css/E_MeyersReset.css">
+  <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/main.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="utf-8">
   <!-- FAVICON commands, allows for access to favicon-->
   <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
@@ -30,7 +31,9 @@
   <header>
     <img src="../img/personal-logo.png" width="100px"/>
     <a href="https://danimacedo.com" id="home-link"></a>
-    <nav>
+    <img id="menu" src="../img/menu.svg"/>
+      <nav>
+        <div id="close">&times;</div>
       <ul>
         <li><a href="https://danimacedo.com">portfolio</a></li>
         <li><a href="https://danimacedo.com/#about">about</a></li>
@@ -41,7 +44,7 @@
   </header>
   <article>
     <br><br>
-    <h2>The Flow<br><span>2016 | app concept + video</span></h2>
+    <h2 class="page-links">The Flow<br><span>2016 | app concept + video</span></h2>
     <p>In a specialized design class focused on water conservation, the final project was to develop an interactive (physical or digital) experience to
     promote awareness or participation in helping the water crisis in California, and create a promotional video for it using After Effects. <br><br>We created a concept for an app where people could educate themselves about
     how much water gets wasted through common water leaks, and then empowers and equips them to report water leaks in their own city. Below is the promo video my partner

@@ -132,14 +132,19 @@
   .page-links {
     text-align: left;
     padding-top: 4%;
+    font-size: 25pt;
+    line-height: 26pt;
   }
   .page-links span {
-    font-size: 20px;
+    font-size: 14pt;
     color: #696969;
-    font-style: italic;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15pt;
   }
   .page-links span a {
-    
+    font-weight: normal;
+    font-style: italic;
   }
   .picbutton a {
     position: absolute;
