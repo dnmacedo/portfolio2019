@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <title>Dani Macedo</title>
-  <link rel="stylesheet" href="../css/E_MeyersReset.css">
+  <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/main.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <script src="script.js"></script>
   <meta charset="utf-8">
   <!-- FAVICON commands, allows for access to favicon-->
@@ -31,7 +32,9 @@
   <header>
     <img src="../img/personal-logo.png" width="100px"/>
     <a href="https://danimacedo.com" id="home-link"></a>
-    <nav>
+    <img id="menu" src="../img/menu.svg"/>
+      <nav>
+        <div id="close">&times;</div>
       <ul>
         <li><a href="https://danimacedo.com">portfolio</a></li>
         <li><a href="https://danimacedo.com/#about">about</a></li>
@@ -42,7 +45,7 @@
   </header>
   <article>
     <br><br>
-    <h2>Leatherman BioConsulting, Inc.<br><span>2017 | rebranding for a client</span></h2>
+    <h2 class="page-heading">Leatherman BioConsulting, Inc.<br><span>2017 | rebranding for a client</span></h2>
     <p>When working with <a href="https://leathermanbio.com/">Leatherman BioConsulting, Inc.</a> I got to work with two incredibly smart biologists who run a
     small business in my home city, Yorba Linda. To quote from their website: "Leatherman BioConsulting, Inc. specializes
     in terrestrial biological resource surveys, management, and monitoring. We offer an array of biological services including
