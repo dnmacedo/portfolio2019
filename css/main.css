@@ -27,7 +27,7 @@
     margin: 5%;
   }
   h3 {
-    font-family: Avenir Demi;
+    font-family: Avenir;
     font-size: 14pt;
     line-height: 18pt;
     text-align: center;
@@ -104,7 +104,7 @@
     margin: 5%;
   }
   h3, h2 {
-    font-family: Avenir Demi;
+    font-family: Avenir;
     font-size: 18pt;
     line-height: 22pt;
     text-align: center;
@@ -129,20 +129,20 @@
     transition: all 0.2s ease;
     z-index: 2;
   }
-  .page-links {
+  .page-heading {
     text-align: left;
     padding-top: 4%;
     font-size: 25pt;
     line-height: 26pt;
   }
-  .page-links span {
+  .page-heading span {
     font-size: 14pt;
     color: #696969;
     font-style: normal;
     font-weight: normal;
     line-height: 15pt;
   }
-  .page-links span a {
+  .page-heading span a {
     font-weight: normal;
     font-style: italic;
   }
@@ -376,7 +376,7 @@
     color: #696969;
     transition: all 0.2s ease;
   }
-  p a:hover, .page-links a:hover {
+  p a:hover, .page-heading a:hover {
     opacity: .5;
   }
   article img {
