@@ -213,7 +213,7 @@
     margin: 5%;
   }
 }
-/* Tablets */
+/* Tablets and landscape phones */
 @media only screen and (min-width:768px) and (max-width: 1024px){
 
 }
