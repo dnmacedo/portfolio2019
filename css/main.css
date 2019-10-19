@@ -220,12 +220,11 @@
   /* DCC Page */
   .desc {
     width: 100%;
-    margin: auto;
+    margin: 5%;
     float: left;
   }
   #team-list ul {
     padding: 0;
-    margin: 5%;
   }
   #team-list li {
     font-size: 14pt;
