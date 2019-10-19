@@ -217,6 +217,50 @@
     width: 100%;
     height: auto;
   }
+  /* DCC Page */
+  .desc {
+    width: 100%;
+    margin: auto;
+    float: left;
+  }
+  #team-list ul {
+    padding: 0;
+    margin: 5%;
+  }
+  #team-list li {
+    font-size: 14pt;
+    line-height: 20pt;
+    list-style-type: none;
+    font-family: Avenir;
+  }
+  #team-list a {
+    text-decoration: underline;
+  }
+  #team-list strong {
+    font-size: 16pt;
+    font-weight: normal;
+  }
+  #dcc-main, #dcc-main img {
+    width: 100%;
+  }
+  #dcc-main button {
+    padding-right: 10px;
+    border-radius: 14px;
+    border-color: transparent;
+    line-height: 22pt;
+    background-color: rgb(103, 200, 202);
+    color: white;
+  }
+  #dcc-main p {
+    line-height: 28pt;
+    margin: 0 5%;
+  }
+  #graphics, #web, #directors, #event-exp, #finances, #exhibits, #outreach, #workshop, #photographer {
+    display: none;
+  }
+  #team {
+    display: block;
+  }
 }
 /* Tablets and landscape phones */
 @media only screen and (min-width:600px){
@@ -357,6 +401,7 @@
   }
   h2 span {
     font-family: Avenir Italic;
+    font-weight: normal;
     font-size: 16px;
   }
   h2 a {
@@ -555,13 +600,13 @@
     float: left;
   }
   #team-list li {
-    font-size: 16px;
+    font-size: 14pt;
   }
   #team-list a {
     text-decoration: underline;
   }
   #team-list strong {
-    font-size: 20px;
+    font-size: 20pt;
   }
   #dcc-main {
     width: 1100px;
@@ -577,6 +622,11 @@
   }
   #dcc-main button {
     padding-right: 10px;
+    border-radius: 14px;
+    border-color: transparent;
+    line-height: 22pt;
+    background-color: rgb(103, 200, 202);
+    color: white;
   }
   #graphics, #web, #directors, #event-exp, #finances, #exhibits, #outreach, #workshop, #photographer {
     display: none;
