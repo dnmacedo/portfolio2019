@@ -255,6 +255,15 @@
     line-height: 28pt;
     margin: 0 5%;
   }
+  #silly_switch {
+    margin: 0;
+  }
+  #silly_switch p {
+    line-height: 28pt;
+  }
+  .switch {
+    top: 5px;
+  }
   #graphics, #web, #directors, #event-exp, #finances, #exhibits, #outreach, #workshop, #photographer {
     display: none;
   }
@@ -617,8 +626,9 @@
     margin: auto;
   }
   #dcc-main p {
-    margin: 10px 0;
-    max-width: 1100px;
+    line-height: 28pt;
+    margin: 0;
+    max-width: 960px;
   }
   #dcc-main button {
     padding-right: 10px;
@@ -627,6 +637,10 @@
     line-height: 22pt;
     background-color: rgb(103, 200, 202);
     color: white;
+  }
+  #silly_switch {
+    display: inline-block;
+    float: left;
   }
   #graphics, #web, #directors, #event-exp, #finances, #exhibits, #outreach, #workshop, #photographer {
     display: none;
