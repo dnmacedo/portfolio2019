@@ -219,15 +219,15 @@
   }
   /* DCC Page */
   .desc {
-    width: 100%;
     margin: 5%;
     float: left;
+    height: 400px;
   }
   #team-list ul {
     padding: 0;
   }
   #team-list li {
-    font-size: 14pt;
+    font-size: 13pt;
     line-height: 20pt;
     list-style-type: none;
     font-family: Avenir;
