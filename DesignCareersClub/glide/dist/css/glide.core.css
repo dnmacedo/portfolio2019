@@ -55,3 +55,11 @@
 .glide--rtl {
   direction: rtl;
 }
+@media only screen and (max-width:600px){
+  .glide {
+    width: 100%;
+  }
+  .glide__arrows {
+    display: none;
+  }
+}
