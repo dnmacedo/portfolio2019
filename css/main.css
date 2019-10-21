@@ -271,18 +271,19 @@
     display: block;
   }
 }
-/* Tablets and landscape phones */
+/* Portrait Tablets and landscape phones */
 @media only screen and (min-width:600px){
 
-/* Tablets and landscape phones */
+/* Landscape Tablets */
 @media only screen and (min-width:768px){
 
 }
+/* Desktops and Laptop computers */
 @media only screen and (min-width: 992px){
 
 }
 
-/* Desktops and laptop computers */
+/* Extra large Desktops and laptop computers */
 @media only screen and (min-width: 1200px){
   body {
     font-family: Avenir;
