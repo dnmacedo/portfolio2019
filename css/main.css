@@ -82,6 +82,7 @@
   nav ul {
     width: 180px;
     margin: 50% auto;
+    padding: 0;
   }
   nav li {
     width: 100%;

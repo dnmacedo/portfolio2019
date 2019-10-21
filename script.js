@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function(event){
   console.log("DOM fully loaded and parsed");
 
 var menu = document.getElementById('menu');
-var nav = document.getElementById('mobile-nav');
+var nav = document.getElementsByTagName('nav');
 var close = document.getElementById('close');
 
 var github = document.getElementById("github-icon");
