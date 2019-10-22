@@ -187,6 +187,10 @@
     max-width: 100%;
     margin-top: 5%;
   }
+  form {
+    width: 100%;
+    margin: 10% 0;
+  }
   p, input, textarea {
     font-family: Avenir;
   }
@@ -218,10 +222,11 @@
     color:black;
   }
   input[type="submit"], input[type="reset"] {
-    position:relative;
-    width: 1in;
+    position: relative;
+    width: 25%;
     padding:12px;
-    margin: 5% 35%;
+    margin: 5% auto;
+    display: block;
     border:none; /*remove default*/
     border-radius:3px;
     background-color: rgb(103, 200, 202);
@@ -232,9 +237,6 @@
   }
   label {
     display: none;
-  }
-  form {
-    margin: 5%;
   }
   iframe {
     margin: 5% 0;
