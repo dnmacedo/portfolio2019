@@ -353,6 +353,9 @@
     padding-right: 10px;
   }
   /***** main *****/
+  h2 {
+    font-weight: normal;
+  }
   h3 {
     max-width: 1300px;
     margin: 50px 0;
@@ -387,6 +390,8 @@
     height: 180px;
     z-index: 3;
     background-color: white;
+    padding: 80px 0 10px 0;
+    margin-bottom: 50px;
   }
   .top-section-padding {
     position: relative;
@@ -422,7 +427,7 @@
   }
   h2 {
     max-width: 800px;
-    margin: 50px 0;
+    margin: 0;
     font-size: 28px;
     line-height: 28px;
     font-family: Avenir Demi;
