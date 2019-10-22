@@ -241,6 +241,12 @@
     width: 100%;
     height: auto;
   }
+  footer {
+    margin: 0 5%;
+  }
+  footer p {
+    text-align: center;
+  }
   /* DCC Page */
   .desc {
     margin: 5% 0;
