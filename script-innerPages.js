@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function(event){
 var menu = document.getElementById('menu');
 var nav = document.getElementsByTagName('nav')[0];
 var close = document.getElementById('close');
+var header = document.getElementsByTagName('header')[0];
 
 var github = document.getElementById("github-icon");
 var ig = document.getElementById("ig-icon");
@@ -12,11 +13,13 @@ var linkedin = document.getElementById("linkedin-icon");
 menu.addEventListener('click', function(){
   console.log("clicked");
   nav.style.display = "block";
+  header.style.height = "100%";
   // add a fade up?
 });
 
 close.addEventListener('click', function(){
   nav.style.display = "none";
+  header.style.height = "auto";
 });
 
 if (screen.width < 768){
