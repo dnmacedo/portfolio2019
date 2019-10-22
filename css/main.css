@@ -171,7 +171,7 @@
     font-size: 14pt;
     line-height: 18pt;
     max-width: 100%;
-    margin-top: 5%;
+    margin: 5% 0;
   }
   form {
     width: 100%;
@@ -223,6 +223,9 @@
   }
   label {
     display: none;
+  }
+  #aboutMe {
+    margin-top: 30%;
   }
   iframe {
     margin: 5% 0;
