@@ -68,8 +68,12 @@
   }
   nav {
     display: none;
+  }
+  #mobile-nav {
+    display: none;
     position: absolute;
     top: 0;
+    left: 0;
     text-align: center;
     background-color: #67c8ca;
     font-family: Avenir;
@@ -87,28 +91,28 @@
     top: 15%;
     right: 46%;
   }
-  nav ul {
+  #mobile-nav ul {
     width: 180px;
     margin: 50% auto;
     padding: 0;
   }
-  nav li {
+  #mobile-nav li {
     width: 100%;
     display: inline-block;
   }
-  nav li:last-child a{
+  #mobile-nav li:last-child a{
     float: left;
     width: 40px;
     margin: 10% 5%;
   }
-  nav li:last-child img {
+  #mobile-nav li:last-child img {
     width: 100%;
     height: 100%;
   }
-  nav a {
+  #mobile-nav a {
     color: white;
   }
-  article {
+  main {
     margin: 5%;
   }
   img {
@@ -176,8 +180,8 @@
   p {
     font-size: 14pt;
     line-height: 18pt;
-    max-width: 90%;
-    margin: 5%;
+    max-width: 100%;
+    margin-top: 5%;
   }
   p, input, textarea {
     font-family: Avenir;
@@ -235,7 +239,7 @@
   }
   /* DCC Page */
   .desc {
-    margin: 5%;
+    margin: 5% 0;
     float: left;
     height: 400px;
   }
@@ -268,7 +272,7 @@
   }
   #dcc-main p {
     line-height: 28pt;
-    margin: 0 5%;
+    margin: 0;
   }
   #silly_switch {
     margin: 0;
@@ -326,7 +330,7 @@
     width: 100px;
     height: 100px;
   }
-  #close, #menu, #menu-img {
+  #close, #menu, #menu-img, aside {
     display: none;
   }
   ul {
