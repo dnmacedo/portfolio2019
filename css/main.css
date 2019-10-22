@@ -38,6 +38,10 @@
 } */
 /* Mobiles in portrait mode */
 @media only screen and (max-width:600px){
+  header {
+    position: fixed;
+    height: auto;
+  }
   header img:first-child{
     position: relative;
     float: left;
@@ -72,6 +76,7 @@
     width: 100%;
     height: 100%;
     transition: all 2s ease;
+    z-index: 3;
   }
   #close {
     font-size: 36pt;
@@ -100,9 +105,11 @@
   nav a {
     color: white;
   }
-  img {
-    max-width: 90%;
+  article {
     margin: 5%;
+  }
+  img {
+    width: 100%;
   }
   h3, h2 {
     font-family: Avenir;
@@ -110,8 +117,8 @@
     line-height: 22pt;
     text-align: center;
     max-width: 90%;
-    margin: 10% 5%;
     clear: both;
+    margin: 0;
   }
   .top {
     position: relative;
@@ -130,9 +137,13 @@
     transition: all 0.2s ease;
     z-index: 2;
   }
+  .top-section {
+    position: relative;
+    display: block;
+    height: auto;
+  }
   .page-heading {
     text-align: left;
-    padding-top: 4%;
     font-size: 25pt;
     line-height: 26pt;
   }
@@ -150,7 +161,7 @@
   .picbutton a {
     position: absolute;
     left: 0;
-    margin: 5%;
+    margin: 0 5%;
     width: 90%;
     padding-top: 90%;
     text-align: left;
