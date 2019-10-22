@@ -362,7 +362,7 @@
   h3 a {
     color: inherit;
   }
-  article {
+  main {
     position: relative;
     left: 200px;
     width: 1600px;
@@ -370,7 +370,7 @@
     height: 100%;
     overflow: hidden;
   }
-  article img {
+  main img {
     max-width: 1300px;
   }
   strong {
@@ -451,7 +451,7 @@
   .picbutton a:hover {
     background-color: rgba(255, 255, 255, 0.5);
   }
-  article p {
+  main p {
     max-width: 800px;
     line-height: 22px;
     margin: 0 50px 50px 0;
@@ -465,7 +465,7 @@
   p a:hover, .page-heading a:hover {
     opacity: .5;
   }
-  article img {
+  main img {
     position: relative;
     float: left;
   }
