@@ -379,7 +379,7 @@
     font-family: Avenir Demi;
   }
   .top-section {
-    position: fixed;
+    position: relative;
     display: block;
     box-sizing: border-box;
     top: 0;
@@ -567,6 +567,9 @@
     top: 100px;
   }
   /***** VAREP *****/
+  #varep-top-section {
+    position: fixed;
+  }
   #VAREPSection {
     width: 1300px;
   }
@@ -621,6 +624,9 @@
     margin: auto;
   }
   /****** DCC ******/
+  #dcc-top-section {
+    position: fixed;
+  }
   .desc {
     width: 350px;
     padding-left: 100px;
