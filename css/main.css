@@ -345,7 +345,8 @@
   }
   ul li {
     font-family: Avenir Italic;
-    line-height: 30px;
+    font-size: 14pt;
+    line-height: 36px;
   }
   li a {
     text-decoration: none;
@@ -434,12 +435,16 @@
   h3 a {
     color: inherit;
   }
+  h1 a {
+    color: rgb(103, 200, 202);
+  }
   h3 {
     max-width: 1300px;
     margin: 0;
     font-size: 18px;
     line-height: 30px;
     font-family: Avenir;
+    font-weight: normal;
   }
   .picbutton {
     display: inline-block;
