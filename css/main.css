@@ -137,21 +137,7 @@
     margin-bottom: 10%;
   }
   .top {
-    position: relative;
-    display: block;
-    bottom: 20px;
-    margin: 12% 43%;
-    color: #67c8ca;
-    text-decoration: underline;
-    background-color: white;
-    font-size: 28px;
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    text-align: center;
-    font-family: Avenir Demi;
-    transition: all 0.2s ease;
-    z-index: 2;
+    display: none;
   }
   .top-section {
     position: relative;
@@ -244,10 +230,13 @@
     height: auto;
   }
   footer {
-    margin: 0 5%;
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 50%;
   }
   footer p {
     text-align: center;
+    line-height: 20pt;
   }
   /* DCC Page */
   .desc {
@@ -274,7 +263,7 @@
   #dcc-main, #dcc-main img {
     width: 100%;
   }
-  #dcc-main button {
+  #dcc-main button, button {
     padding-right: 10px;
     border-radius: 14px;
     border-color: transparent;
@@ -629,7 +618,10 @@
     margin: 0 20px 100px 0; /*style for the language app page*/
   }
   /***** LBC  *****/
-
+  #logo-pic {
+    width: 500px;
+    margin: 20px 100px 50px 100px;
+  }
   /****** PHOTO ******/
   .glide__slide img {
     display: block;
@@ -669,7 +661,7 @@
     margin: 0;
     max-width: 960px;
   }
-  #dcc-main button {
+  #dcc-main button, button {
     padding-right: 10px;
     border-radius: 14px;
     border-color: transparent;
