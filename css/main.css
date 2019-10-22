@@ -40,27 +40,30 @@
 @media only screen and (max-width:600px){
   header {
     position: fixed;
+    top: 0;
     height: auto;
+    z-index: 3;
+    background-color: white;
   }
   header img:first-child{
     position: relative;
     float: left;
     display: block;
-    width: 20%;
-    margin: 5%;
+    width: 15%;
+    margin: 3%;
   }
   #home-link {
     position: absolute;
     top: 0;
     left: 0;
-    width: 20%;
-    padding-top: 20%;
-    margin: 5%;
+    width: 15%;
+    padding-top: 15%;
+    margin: 3%;
   }
   #menu-img, #menu {
     position: absolute;
-    left: 80%;
-    margin: 8% 5%;
+    left: 82%;
+    margin: 3%;
     width: 10%;
   }
   nav {
@@ -76,7 +79,7 @@
     width: 100%;
     height: 100%;
     transition: all 2s ease;
-    z-index: 3;
+    z-index: 4;
   }
   #close {
     font-size: 36pt;
@@ -141,6 +144,7 @@
     position: relative;
     display: block;
     height: auto;
+    margin-top: 25%;
   }
   .page-heading {
     text-align: left;
