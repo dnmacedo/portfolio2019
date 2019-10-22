@@ -5,22 +5,25 @@ var menu = document.getElementById('menu');
 var nav = document.getElementsByTagName('nav')[0];
 var close = document.getElementById('close');
 var header = document.getElementsByTagName('header')[0];
+var about = document.getElementById('about-link');
 
 var github = document.getElementById("github-icon");
 var ig = document.getElementById("ig-icon");
 var linkedin = document.getElementById("linkedin-icon");
 
-menu.addEventListener('click', function(){
-  console.log("clicked");
-  nav.style.display = "block";
-  header.style.height = "100%";
-  // add a fade up?
+menu.addEventListener('click', function openNav(){
+    console.log("clicked");
+    nav.style.display = "block";
+    header.style.height = "100%";
+    // add a fade up?
 });
 
-close.addEventListener('click', function(){
+close.addEventListener('click', function closeNav(){
   nav.style.display = "none";
   header.style.height = "auto";
 });
+
+about.addEventListener('click', closeNav());
 
 if (screen.width < 768){
   github.src = "img/github-icon-white.png";
